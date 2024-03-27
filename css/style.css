@@ -1,0 +1,27 @@
+/* div{
+weight: 100px;
+height: 100px;
+border: 1px solid #ff00ff;
+margin-botton: 5px;
+} */
+
+.sacola {
+background: url(../img/sacola.png) no-repeat top right;
+font-size: 14px;
+padding-right: 35px;
+text-align: right;
+width: 140px;
+}
+
+.menu-operaçoes ul {
+font-size: 15px;
+}
+
+.menu-operaçoes a {
+color: #FF00FF;
+}
+
+body{
+color: aquamarine;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
