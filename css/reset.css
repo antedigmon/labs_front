@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+::before, ::after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img, video, iframe, object, embed, audio {
+    max-width: 100%;
+}
+
+input, textarea, select, button {
+    max-width: 100%;
+}
+
+button {
+    overflow: visible;
+}
+
+input, textarea, select {
+    border: 0;
+    border-radius: 0;
+}

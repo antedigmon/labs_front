@@ -4,7 +4,10 @@ height: 100px;
 border: 1px solid #ff00ff;
 margin-botton: 5px;
 } */
-
+:root{
+--cor-menu:aquamarine
+--cor-base:brown
+}
 .sacola {
 background: url(../img/sacola.png) no-repeat top right;
 font-size: 14px;
@@ -18,10 +21,10 @@ font-size: 15px;
 }
 
 .menu-operaçoes a {
-color: #FF00FF;
+color: var(--cor-menu);
 }
 
 body{
-color: aquamarine;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: var(--cor-base)
+font-family: 'roboto', sans-serif;
 }
