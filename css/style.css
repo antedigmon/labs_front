@@ -12,15 +12,21 @@ margin-botton: 5px;
 background: url(../img/sacola.png) no-repeat top right;
 font-size: 14px;
 padding-right: 35px;
+padding-top: 8px;
 text-align: right;
 width: 140px;
 }
 
-.menu-operaçoes ul {
+.menu-opecoes ul {
 font-size: 15px;
 }
 
-.menu-operaçoes a {
+.menu-opecoes ul li {
+display: inline;
+margin-left: 20px;
+}
+
+.menu-opecoes a {
 color: var(--cor-menu);
 }
 
