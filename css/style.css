@@ -12,10 +12,20 @@ margin-botton: 5px;
 background: url(../img/sacola.png) no-repeat top right;
 font-size: 14px;
 padding-right: 35px;
-padding-top: 8px;
 text-align: right;
+padding-top: 8px;
 width: 140px;
+position: absolute;
+top: 0;
+right: 0;
 }
+
+.menu-opecoes {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
 
 .menu-opecoes ul {
 font-size: 15px;
@@ -33,4 +43,9 @@ color: var(--cor-menu);
 body{
 color: var(--cor-base)
 font-family: 'roboto', sans-serif;
+}
+
+.container{
+margin: 0 auto;
+width: 90%;
 }
