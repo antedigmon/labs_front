@@ -7,6 +7,8 @@ margin-botton: 5px;
 :root{
 --cor-menu:aquamarine
 --cor-base:brown
+--cor-menu-lateral: #dcdcdc;
+--cor-menu-lateral-items:#fff;
 }
 .sacola {
 background: url(../img/sacola.png) no-repeat top right;
@@ -50,3 +52,47 @@ margin: 0 auto;
 width: 90%;
 }
 
+.header{
+position: relative;
+}
+
+.busca,
+.menu-departamentos{
+background-color: var(--cor-menu-lateral);
+font-weight: bold;
+text-transform: uppercase;
+margin-right: 10px;
+width: 230px;
+float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos{
+    margin: 10px;
+    padding-top: 10px;
+    clear: left;
+}
+
+.menu-departamentos li{
+    background-color: whitesmoke;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+color: #18fbe3;
+text-decoration: #FF5F1F;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.destaque{
+    margin-top: 10px;
+}
