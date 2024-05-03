@@ -66,8 +66,6 @@ width: 230px;
 float: left;
 }
 
-.busca h2,
-.busca form,
 .menu-departamentos{
     margin: 10px;
     padding-top: 10px;
@@ -82,7 +80,12 @@ float: left;
 
 .menu-departamentos a {
 color: #18fbe3;
-text-decoration: #FF5F1F;
+text-decoration: none;
+}
+
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
 }
 
 .busca input{
@@ -129,7 +132,7 @@ text-decoration: #FF5F1F;
 .painel li{
     display: inline-block;
     vertical-align: top;
-    width: 145px;
+    width: 135px;
     margin: 2px;
     padding-bottom: 10px;
 }
@@ -140,4 +143,41 @@ text-decoration: #FF5F1F;
 
 .mais-vendidos{
     background-color: #333;
+}
+
+footer{
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    }
+
+.social a{
+height: 32px;
+width: 32px;
+display: block;
+text-indent: -9999px;
+}
+
+.social a [href*="facebook.com"] {
+background-image: url(../img/facebook.png);
+}
+
+.social a [href*="twitter.com"] {
+background-image: url(../img/twitter.png);
+}
+
+.social a [href*="reddit.com"] {
+background-image: url(../img/vecteezy_reddit-logo-png-reddit-icon-transparent-png_18930474.png);
+}
+
+.social li {
+float: left;
+margin-left: 25px;
 }
