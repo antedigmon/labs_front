@@ -15,8 +15,8 @@ background: url(../img/sacola.png) no-repeat top right;
 font-size: 14px;
 padding-right: 35px;
 text-align: right;
-padding-top: 8px;
 width: 140px;
+padding-top: 8px;
 position: absolute;
 top: 0;
 right: 0;
@@ -35,21 +35,21 @@ font-size: 15px;
 
 .menu-opecoes ul li {
 display: inline;
-margin-left: 20px;
+margin-top: 20px;
 }
 
 .menu-opecoes a {
 color: var(--cor-menu);
 }
 
-body{
+body {
 color: var(--cor-base)
-font-family: 'roboto', sans-serif;
+font-family: 'roboto', sans-serif
 }
 
 .container{
 margin: 0 auto;
-width: 90%;
+width: 940px;
 }
 
 .header{
@@ -142,7 +142,7 @@ text-decoration: none;
 }
 
 .mais-vendidos{
-    background-color: #333;
+    background-color: #05abec;
 }
 
 footer{
@@ -165,16 +165,16 @@ display: block;
 text-indent: -9999px;
 }
 
-.social a [href*="facebook.com"] {
+.social a[href*="facebook.com"] {
 background-image: url(../img/facebook.png);
 }
 
-.social a [href*="twitter.com"] {
+.social a[href*="twitter.com"] {
 background-image: url(../img/twitter.png);
 }
 
-.social a [href*="reddit.com"] {
-background-image: url(../img/vecteezy_reddit-logo-png-reddit-icon-transparent-png_18930474.png);
+.social a[href*="instagram.com"] {
+background-image: url(../img/instagram.png);
 }
 
 .social li {
