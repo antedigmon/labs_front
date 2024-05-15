@@ -17,14 +17,14 @@ padding-right: 35px;
 text-align: right;
 width: 140px;
 padding-top: 8px;
-position: absolute;
+position:absolute;
 top: 0;
 right: 0;
 }
 
 .menu-opecoes {
-position: absolute;
-bottom: 0;
+position:absolute;
+top: 100;
 right: 0;
 }
 
@@ -35,7 +35,7 @@ font-size: 15px;
 
 .menu-opecoes ul li {
 display: inline;
-margin-top: 20px;
+margin-left: 20px;
 }
 
 .menu-opecoes a {
@@ -53,7 +53,7 @@ width: 940px;
 }
 
 .header{
-position: relative;
+position:relative;
 }
 
 .busca,
@@ -67,12 +67,12 @@ float: left;
 }
 
 .menu-departamentos{
-    margin: 10px;
-    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
     clear: left;
 }
 
-.menu-departamentos li{
+.menu-departamentos li {
     background-color: whitesmoke;
     margin-bottom: 1px;
     padding: 5px 10px;
@@ -115,27 +115,28 @@ text-decoration: none;
 
 }
 
-.painel h2{
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.painel a{
-    color: #333;
+.painel a {
+    color: var(--cor-base);
     font-size: 14px;
     text-align: center;
     text-decoration: none;
 }
 
-.painel li{
-    display: inline-block;
-    vertical-align: top;
-    width: 135px;
-    margin: 2px;
-    padding-bottom: 10px;
-}
 
 .novidades{
     background-color: #FF5F1F;
@@ -173,11 +174,41 @@ background-image: url(../img/facebook.png);
 background-image: url(../img/twitter.png);
 }
 
-.social a[href*="instagram.com"] {
-background-image: url(../img/instagram.png);
+.social a[href*="googleplus.com"] {
+background-image: url(../img/googleplus.png);
 }
 
 .social li {
 float: left;
 margin-left: 25px;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+ 
+.menu-opcoes a:hover{
+    color: #007dc6;
+}    
+
+.menu-opcoes a:active{
+    color: red;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before {
+    content: '- ';
 }
