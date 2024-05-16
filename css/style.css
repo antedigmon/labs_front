@@ -143,12 +143,12 @@ text-decoration: none;
 
 .novidades{
     background-color: #FF5F1F;
-    background-image: linear-gradient();
+    background:linear-gradient(#000b11)
 }
 
 .mais-vendidos{
     background-color: #05abec;
-    background-image: linear-gradient();
+    background: linear-gradient(#113649);
 }
 
 footer{
