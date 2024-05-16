@@ -18,14 +18,14 @@ text-align: right;
 width: 140px;
 padding-top: 8px;
 position:absolute;
-top: 0;
+top: 20;
 right: 0;
 }
 
 .menu-opecoes {
 position:absolute;
 top: 100;
-right: 0;
+right: 50;
 }
 
 
@@ -104,6 +104,8 @@ text-decoration: none;
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #100;
 }
 
 .novidades{
@@ -128,6 +130,7 @@ text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px;
 }
 
 .painel a {
@@ -140,10 +143,12 @@ text-decoration: none;
 
 .novidades{
     background-color: #FF5F1F;
+    background-image: linear-gradient();
 }
 
 .mais-vendidos{
     background-color: #05abec;
+    background-image: linear-gradient();
 }
 
 footer{
