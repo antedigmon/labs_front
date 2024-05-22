@@ -14,9 +14,9 @@ margin-botton: 5px;
 --cor-painel-novidades:#ffa500;
 --cor-painel-shadow:#999;
 --cor-painel-titulo: rgba(0, 0, 0, 0.5);
---cor-painel-novidades-grad: #cf0854;
---cor-panel-mais-vendidos: #05a4ee;
---cor-panel-mais-vendidos-grad: #0cdf39a9; 
+--cor-painel-novidades-grad: #d43606ef;
+--cor-panel-mais-vendidos: #05eeee;
+--cor-panel-mais-vendidos-grad: #d80b6bb9; 
 }
 .sacola {
 background: url(../img/sacola.png) no-repeat top right;
@@ -206,7 +206,7 @@ margin-left: 25px;
 }    
 
 .menu-opcoes a:active{
-    color: red;
+    color: rgb(111, 0, 255);
 }
 
 .menu-departamentos li ul {
