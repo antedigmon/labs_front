@@ -52,7 +52,7 @@ color: var(--cor-menu);
 
 body {
 color: var(--cor-base)
-font-family: 'roboto', sans-serif
+font-family: "Roboto", sans-serif;
 }
 
 .container{
