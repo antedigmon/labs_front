@@ -50,9 +50,9 @@ margin-left: 20px;
 color: var(--cor-menu);
 }
 
-body {
+body{
 color: var(--cor-base)
-font-family: "Roboto", sans-serif;
+font-family "Roboto", sans-serif
 }
 
 .container{
@@ -88,7 +88,7 @@ float: left;
 
 .menu-departamentos a {
 color:var(--cor-base)
-text-decoration: none;
+text-decoration none;
 }
 
 .busca form,
